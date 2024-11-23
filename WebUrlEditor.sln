@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUrlEditor", "WebUrlEditor\WebUrlEditor.csproj", "{BEEAE916-2E4B-4DE9-9891-9AA4D3F06A26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46B25D69-0BB5-494D-8BB7-9CBE7D0687F7}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUrlEditor.Tests", "WebUrlEditor.Tests\WebUrlEditor.Tests.csproj", "{E8C1B8F4-B832-42A5-B99E-8A63087240C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEEAE916-2E4B-4DE9-9891-9AA4D3F06A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEAE916-2E4B-4DE9-9891-9AA4D3F06A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEAE916-2E4B-4DE9-9891-9AA4D3F06A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEAE916-2E4B-4DE9-9891-9AA4D3F06A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C1B8F4-B832-42A5-B99E-8A63087240C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C1B8F4-B832-42A5-B99E-8A63087240C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C1B8F4-B832-42A5-B99E-8A63087240C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C1B8F4-B832-42A5-B99E-8A63087240C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

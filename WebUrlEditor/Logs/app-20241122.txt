@@ -1,0 +1,509 @@
+2024-11-22 11:29:43.155 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 11:29:43.179 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 11:29:43.180 -08:00 [INF] Hosting environment: Development
+2024-11-22 11:29:43.180 -08:00 [INF] Content root path: /Users/irinamitsuk/RiderProjects/WebUrlEditor/WebUrlEditor
+2024-11-22 11:29:43.742 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 11:29:43.870 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 128.3532ms
+2024-11-22 11:29:44.186 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 11:29:44.284 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.8318ms
+2024-11-22 11:29:54.141 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 27
+2024-11-22 11:29:54.146 -08:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 11:29:54.149 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:29:54.164 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:29:54.187 -08:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-11-22 11:29:54.190 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 23.4249ms
+2024-11-22 11:29:54.190 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:29:54.190 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 400 null text/plain; charset=utf-8 49.1535ms
+2024-11-22 11:32:53.724 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 11:32:53.749 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 11:32:53.749 -08:00 [INF] Hosting environment: Development
+2024-11-22 11:32:53.749 -08:00 [INF] Content root path: /Users/irinamitsuk/RiderProjects/WebUrlEditor/WebUrlEditor
+2024-11-22 11:32:54.383 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 11:32:54.487 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 104.2659ms
+2024-11-22 11:32:55.160 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 11:32:55.247 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 87.1705ms
+2024-11-22 11:33:18.780 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 39
+2024-11-22 11:33:18.787 -08:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 11:33:18.790 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:18.804 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:33:18.826 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:33:18.827 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:33:18.827 -08:00 [INF] URL shortened: http://memem.com to mL4iBf20
+2024-11-22 11:33:18.828 -08:00 [INF] URL Shortened: http://memem.com to https://short.url/mL4iBf20
+2024-11-22 11:33:18.831 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.364ms.
+2024-11-22 11:33:18.836 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:33:18.840 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 33.6762ms
+2024-11-22 11:33:18.840 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:18.840 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 60.0802ms
+2024-11-22 11:33:36.986 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 39
+2024-11-22 11:33:36.987 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:36.988 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:33:36.990 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:33:36.991 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:33:36.991 -08:00 [INF] URL shortened: http://memem.com to mL4iBf20
+2024-11-22 11:33:36.991 -08:00 [INF] URL Shortened: http://memem.com to https://short.url/mL4iBf20
+2024-11-22 11:33:36.992 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.94ms.
+2024-11-22 11:33:36.993 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:33:36.994 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 5.356ms
+2024-11-22 11:33:36.994 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:36.995 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 8.4776ms
+2024-11-22 11:33:41.632 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 39
+2024-11-22 11:33:41.633 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:41.634 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:33:41.634 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:33:41.635 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:33:41.635 -08:00 [INF] URL shortened: http://memem.com to mL4iBf20
+2024-11-22 11:33:41.635 -08:00 [INF] URL Shortened: http://memem.com to https://short.url/mL4iBf20
+2024-11-22 11:33:41.635 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.4003ms.
+2024-11-22 11:33:41.635 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:33:41.636 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 1.7424ms
+2024-11-22 11:33:41.636 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:41.636 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 4.5002ms
+2024-11-22 11:33:43.408 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 39
+2024-11-22 11:33:43.408 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:43.409 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:33:43.409 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:33:43.409 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:33:43.409 -08:00 [INF] URL shortened: http://memem.com to mL4iBf20
+2024-11-22 11:33:43.410 -08:00 [INF] URL Shortened: http://memem.com to https://short.url/mL4iBf20
+2024-11-22 11:33:43.410 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3742ms.
+2024-11-22 11:33:43.410 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:33:43.410 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 1.5576ms
+2024-11-22 11:33:43.410 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:43.411 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 2.9418ms
+2024-11-22 11:33:44.189 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 39
+2024-11-22 11:33:44.190 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:44.190 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:33:44.191 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:33:44.191 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:33:44.191 -08:00 [INF] URL shortened: http://memem.com to mL4iBf20
+2024-11-22 11:33:44.191 -08:00 [INF] URL Shortened: http://memem.com to https://short.url/mL4iBf20
+2024-11-22 11:33:44.191 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3964ms.
+2024-11-22 11:33:44.192 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:33:44.192 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 2.1818ms
+2024-11-22 11:33:44.193 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:44.193 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 4.0157ms
+2024-11-22 11:33:56.339 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 38
+2024-11-22 11:33:56.340 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:56.341 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:33:56.341 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:33:56.341 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:33:56.342 -08:00 [INF] URL shortened: http://meme.com to +x5AEMBu
+2024-11-22 11:33:56.342 -08:00 [INF] URL Shortened: http://meme.com to https://short.url/+x5AEMBu
+2024-11-22 11:33:56.342 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.3843ms.
+2024-11-22 11:33:56.342 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:33:56.343 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 1.77ms
+2024-11-22 11:33:56.343 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:33:56.343 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 3.4633ms
+2024-11-22 11:34:15.998 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 37
+2024-11-22 11:34:16.000 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:34:16.000 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:34:16.001 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:34:16.002 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:34:16.002 -08:00 [INF] URL shortened: http://mem.com to x7/SuQrD
+2024-11-22 11:34:16.002 -08:00 [INF] URL Shortened: http://mem.com to https://short.url/x7/SuQrD
+2024-11-22 11:34:16.002 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.5224ms.
+2024-11-22 11:34:16.003 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:34:16.003 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 2.692ms
+2024-11-22 11:34:16.003 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:34:16.004 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 5.6172ms
+2024-11-22 11:34:31.215 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 36
+2024-11-22 11:34:31.216 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:34:31.217 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:34:31.219 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:34:31.219 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 11:34:31.220 -08:00 [INF] URL shortened: http://me.com to VFXbAtqT
+2024-11-22 11:34:31.220 -08:00 [INF] URL Shortened: http://me.com to https://short.url/VFXbAtqT
+2024-11-22 11:34:31.220 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 0.8063ms.
+2024-11-22 11:34:31.221 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 11:34:31.222 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 3.7421ms
+2024-11-22 11:34:31.222 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 11:34:31.222 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 7.0582ms
+2024-11-22 11:34:48.156 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/api/test/VFXbAtqT - null null
+2024-11-22 11:34:48.157 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ResolveUrl (WebUrlEditor)'
+2024-11-22 11:34:48.168 -08:00 [INF] Route matched with {action = "ResolveUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] ResolveUrl(System.String) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 11:34:48.172 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ResolveUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 11:34:48.173 -08:00 [INF] ResolveUrl endpoint called.
+2024-11-22 11:34:48.175 -08:00 [INF] Key: mL4iBf20, Value: http://memem.com
+2024-11-22 11:34:48.175 -08:00 [INF] Key: +x5AEMBu, Value: http://meme.com
+2024-11-22 11:34:48.175 -08:00 [INF] Key: x7/SuQrD, Value: http://mem.com
+2024-11-22 11:34:48.176 -08:00 [INF] Key: VFXbAtqT, Value: http://me.com
+2024-11-22 11:34:48.176 -08:00 [INF] URL resolved: VFXbAtqT to http://me.com
+2024-11-22 11:34:48.176 -08:00 [INF] URL Resolved: VFXbAtqT to http://me.com
+2024-11-22 11:34:48.177 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ResolveUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.3152ms.
+2024-11-22 11:34:48.178 -08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2024-11-22 11:34:48.178 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ResolveUrl (WebUrlEditor) in 9.442ms
+2024-11-22 11:34:48.180 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ResolveUrl (WebUrlEditor)'
+2024-11-22 11:34:48.181 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/api/test/VFXbAtqT - 200 null text/plain; charset=utf-8 25.4644ms
+2024-11-22 12:04:26.033 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 12:04:26.086 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 12:04:26.086 -08:00 [INF] Hosting environment: Development
+2024-11-22 12:04:26.086 -08:00 [INF] Content root path: /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor
+2024-11-22 12:04:26.310 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 12:04:26.441 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 131.166ms
+2024-11-22 12:04:26.793 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 12:04:26.899 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.0825ms
+2024-11-22 12:04:39.310 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 38
+2024-11-22 12:04:39.319 -08:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 12:04:39.323 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:04:39.340 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 12:04:39.372 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 12:04:39.373 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 12:04:39.374 -08:00 [INF] URL shortened: http://kjkjk.me to o+Pyt6m5
+2024-11-22 12:04:39.374 -08:00 [INF] URL Shortened: http://kjkjk.me to https://short.url/o+Pyt6m5
+2024-11-22 12:04:39.377 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.518ms.
+2024-11-22 12:04:39.384 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 12:04:39.389 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 46.06ms
+2024-11-22 12:04:39.389 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:04:39.389 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 78.7387ms
+2024-11-22 12:16:13.281 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 12:16:13.306 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 12:16:13.307 -08:00 [INF] Hosting environment: Development
+2024-11-22 12:16:13.307 -08:00 [INF] Content root path: /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor
+2024-11-22 12:16:13.830 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 12:16:13.947 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 112.9329ms
+2024-11-22 12:16:14.427 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 12:16:14.512 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 85.4158ms
+2024-11-22 12:16:27.612 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 31
+2024-11-22 12:16:27.618 -08:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 12:16:27.622 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:16:27.644 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 12:16:27.674 -08:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-11-22 12:16:27.677 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 30.2794ms
+2024-11-22 12:16:27.677 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:16:27.677 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 400 null text/plain; charset=utf-8 64.5511ms
+2024-11-22 12:47:59.755 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 12:47:59.780 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 12:47:59.781 -08:00 [INF] Hosting environment: Development
+2024-11-22 12:47:59.781 -08:00 [INF] Content root path: /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor
+2024-11-22 12:48:00.123 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger - null null
+2024-11-22 12:48:00.187 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger - 301 0 null 67.6411ms
+2024-11-22 12:48:00.232 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 12:48:00.309 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 77.2752ms
+2024-11-22 12:48:00.354 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - null null
+2024-11-22 12:48:00.354 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - null null
+2024-11-22 12:48:00.354 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-22 12:48:00.623 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-22 12:48:00.646 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-22 12:48:00.674 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-22 12:48:00.675 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - 200 143943 text/css 321.1478ms
+2024-11-22 12:48:00.675 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 321.1162ms
+2024-11-22 12:48:00.675 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 321.1615ms
+2024-11-22 12:48:00.761 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 12:48:00.814 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - null null
+2024-11-22 12:48:00.814 -08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-22 12:48:00.814 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - 200 628 image/png 0.877ms
+2024-11-22 12:48:00.866 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 104.9761ms
+2024-11-22 12:48:14.645 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 29
+2024-11-22 12:48:14.661 -08:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 12:48:14.673 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:48:14.718 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 12:48:14.751 -08:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2024-11-22 12:48:14.755 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 34.4953ms
+2024-11-22 12:48:14.755 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:48:14.756 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 400 null text/plain; charset=utf-8 111.5004ms
+2024-11-22 12:49:16.156 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 41
+2024-11-22 12:49:16.161 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:49:16.163 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 12:49:16.184 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 12:49:16.187 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 12:49:27.136 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 10972.6685ms
+2024-11-22 12:49:27.167 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 12:49:27.269 -08:00 [ERR] An unhandled exception has occurred while executing the request.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176, command=HMSET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: Irinas-MacBook-Air(SE.Redis-v2.7.27.49176), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=8,Max=32767), POOL: (Threads=9,QueuedItems=0,CompletedItems=451,Timers=19), v: 2.7.27.49176 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: UnableToConnect on localhost:6379/Interactive, Initializing/NotStarted, last: NONE, origin: BeginConnectAsync, outstanding: 0, last-read: 0s ago, last-write: 0s ago, keep-alive: 60s, state: Connecting, mgr: 10 of 10 available, last-heartbeat: never, global: 0s ago, v: 2.7.27.49176
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Caching.StackExchangeRedis.RedisCache.SetImplAsync(String key, ReadOnlySequence`1 value, DistributedCacheEntryOptions options, CancellationToken token)
+   at WebUrlEditor.Services.RedisCacheService.SetAsync(String key, String value) in /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor/Services/RedisCacheService.cs:line 18
+   at WebUrlEditor.Services.UrlShortenerService.ShortenUrlAsync(OriginalUrlRequest request) in /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor/Services/UrlShortenerService.cs:line 23
+   at WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl(OriginalUrlRequest request) in /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor/Controllers/UrlShortenerController.cs:line 37
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-11-22 12:49:27.278 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 500 null text/plain; charset=utf-8 11122.3798ms
+2024-11-22 13:29:30.104 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 13:29:30.129 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 13:29:30.129 -08:00 [INF] Hosting environment: Development
+2024-11-22 13:29:30.129 -08:00 [INF] Content root path: /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor
+2024-11-22 13:29:30.667 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 13:29:30.841 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 176.4987ms
+2024-11-22 13:29:31.222 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 13:29:31.279 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 57.5312ms
+2024-11-22 13:29:50.227 -08:00 [INF] Application is shutting down...
+2024-11-22 13:41:30.254 -08:00 [INF] Now listening on: http://localhost:5243
+2024-11-22 13:41:30.273 -08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-22 13:41:30.274 -08:00 [INF] Hosting environment: Development
+2024-11-22 13:41:30.274 -08:00 [INF] Content root path: /Users/irinamitsuk/_projects/2024/WebUrlEditor/WebUrlEditor
+2024-11-22 13:41:47.637 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 13:41:47.677 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 40.9327ms
+2024-11-22 13:41:47.819 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 13:41:47.881 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.9963ms
+2024-11-22 13:41:48.791 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 13:41:48.793 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 2.6227ms
+2024-11-22 13:41:48.875 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 13:41:48.880 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.8261ms
+2024-11-22 13:42:10.502 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 40
+2024-11-22 13:42:10.511 -08:00 [WRN] Failed to determine the https port for redirect.
+2024-11-22 13:42:10.514 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 13:42:10.529 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 13:42:10.539 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 13:42:10.540 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 13:42:10.542 -08:00 [INF] URL shortened: Http://jkljio.com to VSYYFd1v
+2024-11-22 13:42:10.542 -08:00 [INF] URL Shortened: Http://jkljio.com to https://short.url/VSYYFd1v
+2024-11-22 13:42:10.544 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.7551ms.
+2024-11-22 13:42:10.547 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 13:42:10.549 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 19.4281ms
+2024-11-22 13:42:10.549 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 13:42:10.550 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 47.6245ms
+2024-11-22 13:45:33.063 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 13:45:33.082 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 19.7384ms
+2024-11-22 13:45:33.507 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 13:45:33.517 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.1235ms
+2024-11-22 13:47:41.259 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 13:47:41.276 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 17.458ms
+2024-11-22 13:47:41.715 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 13:47:41.745 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 30.0234ms
+2024-11-22 14:23:21.013 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 14:23:21.091 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 77.7514ms
+2024-11-22 14:23:21.615 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 14:23:21.630 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.8132ms
+2024-11-22 14:23:40.595 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 14:23:40.617 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 22.7528ms
+2024-11-22 14:23:40.956 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 14:23:40.960 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 3.9301ms
+2024-11-22 14:30:19.791 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 14:30:19.842 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 41.2422ms
+2024-11-22 14:30:20.206 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 14:30:20.223 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.8785ms
+2024-11-22 14:30:38.649 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 14:30:38.669 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 38.159ms
+2024-11-22 14:30:39.006 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 14:30:39.019 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.4971ms
+2024-11-22 14:30:55.201 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 39
+2024-11-22 14:30:55.208 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:30:55.211 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 14:30:55.222 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 14:30:55.222 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 14:30:55.224 -08:00 [INF] URL shortened: http://manin.com to ppqyGA/n
+2024-11-22 14:30:55.224 -08:00 [INF] URL Shortened: http://manin.com to https://short.url/ppqyGA/n
+2024-11-22 14:30:55.224 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.001ms.
+2024-11-22 14:30:55.225 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 14:30:55.226 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 14.6836ms
+2024-11-22 14:30:55.226 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:30:55.227 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 26.0985ms
+2024-11-22 14:31:03.812 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 0
+2024-11-22 14:31:03.813 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:31:03.813 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 14:31:03.820 -08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-22 14:31:03.830 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 17.3063ms
+2024-11-22 14:31:03.831 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:31:03.831 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 400 null application/problem+json; charset=utf-8 18.4816ms
+2024-11-22 14:31:19.456 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 22
+2024-11-22 14:31:19.459 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:31:19.460 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 14:31:19.465 -08:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-11-22 14:31:19.465 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 4.6353ms
+2024-11-22 14:31:19.465 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:31:19.465 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 400 null application/problem+json; charset=utf-8 9.2475ms
+2024-11-22 14:53:11.827 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 14:53:11.842 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 21.8008ms
+2024-11-22 14:53:12.307 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 14:53:12.331 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.0381ms
+2024-11-22 14:53:26.890 -08:00 [INF] Request starting HTTP/1.1 POST http://localhost:5243/api/test/shorten - application/json 35
+2024-11-22 14:53:26.895 -08:00 [INF] Executing endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:53:26.896 -08:00 [INF] Route matched with {action = "ShortenUrl", controller = "UrlShortener"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebUrlEditor.Models.ShortenedUrlResponse]] ShortenUrl(WebUrlEditor.Models.OriginalUrlRequest) on controller WebUrlEditor.Controllers.UrlShortenerController (WebUrlEditor).
+2024-11-22 14:53:26.900 -08:00 [INF] Executing action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) - Validation state: "Valid"
+2024-11-22 14:53:26.900 -08:00 [INF] ShortenUrl endpoint called.
+2024-11-22 14:53:26.901 -08:00 [INF] URL shortened: http://me.me to z2b3R78P
+2024-11-22 14:53:26.901 -08:00 [INF] URL Shortened: http://me.me to https://short.url/z2b3R78P
+2024-11-22 14:53:26.901 -08:00 [INF] Executed action method WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.0264ms.
+2024-11-22 14:53:26.902 -08:00 [INF] Executing OkObjectResult, writing value of type 'WebUrlEditor.Models.ShortenedUrlResponse'.
+2024-11-22 14:53:26.902 -08:00 [INF] Executed action WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor) in 5.8937ms
+2024-11-22 14:53:26.902 -08:00 [INF] Executed endpoint 'WebUrlEditor.Controllers.UrlShortenerController.ShortenUrl (WebUrlEditor)'
+2024-11-22 14:53:26.903 -08:00 [INF] Request finished HTTP/1.1 POST http://localhost:5243/api/test/shorten - 200 null application/json; charset=utf-8 12.9435ms
+2024-11-22 14:56:24.427 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 14:56:24.437 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 11.94ms
+2024-11-22 14:56:24.883 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 14:56:24.887 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.3365ms
+2024-11-22 15:01:34.173 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 15:01:34.193 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 21.3511ms
+2024-11-22 15:01:34.704 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 15:01:34.718 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.6497ms
+2024-11-22 15:28:29.788 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 15:28:29.810 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 21.4551ms
+2024-11-22 15:28:30.269 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 15:28:30.277 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.3299ms
+2024-11-22 15:35:21.998 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 15:35:22.019 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 20.9551ms
+2024-11-22 15:35:22.553 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 15:35:22.567 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.282ms
+2024-11-22 15:39:01.337 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 15:39:01.364 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 28.9775ms
+2024-11-22 15:39:01.808 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 15:39:01.813 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.7757ms
+2024-11-22 16:03:53.295 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger - null null
+2024-11-22 16:03:53.335 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger - 301 0 null 41.1837ms
+2024-11-22 16:03:53.342 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 16:03:53.344 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 2.1233ms
+2024-11-22 16:03:53.372 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - null null
+2024-11-22 16:03:53.385 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - null null
+2024-11-22 16:03:53.399 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - null null
+2024-11-22 16:03:53.445 -08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-11-22 16:03:53.445 -08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-11-22 16:03:53.446 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 60.86ms
+2024-11-22 16:03:53.446 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui.css - 200 143943 text/css 74.445ms
+2024-11-22 16:03:53.489 -08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-11-22 16:03:53.490 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 91.5508ms
+2024-11-22 16:03:53.905 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 16:03:53.922 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8197ms
+2024-11-22 16:03:53.989 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - null null
+2024-11-22 16:03:53.994 -08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-11-22 16:03:53.994 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/favicon-32x32.png - 200 628 image/png 5.3341ms
+2024-11-22 16:06:32.091 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 16:06:32.100 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 10.0304ms
+2024-11-22 16:06:32.611 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 16:06:32.628 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.1042ms
+2024-11-22 16:07:20.817 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 16:07:20.831 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 13.9801ms
+2024-11-22 16:07:20.972 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 16:07:21.006 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.3138ms
+2024-11-22 16:12:27.938 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 16:12:27.949 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 9.9885ms
+2024-11-22 16:12:28.414 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 16:12:28.432 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.9043ms
+2024-11-22 16:13:07.989 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 16:13:08.019 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 35.0654ms
+2024-11-22 16:13:08.403 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 16:13:08.408 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.28ms
+2024-11-22 16:13:30.680 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/index.html - null null
+2024-11-22 16:13:30.687 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/index.html - 200 null text/html;charset=utf-8 7.4791ms
+2024-11-22 16:13:31.060 -08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - null null
+2024-11-22 16:13:31.065 -08:00 [INF] Request finished HTTP/1.1 GET http://localhost:5243/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.4852ms
+Token)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-22 14:56:24.877 -08:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5243: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-22 15:01:37.607 -08:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5243: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-22 15:28:32.331 -08:00 [ERR] Hosting failed to start
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5243: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (48): Address already in use
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(ListenOptions[] listenOptions, AddressBindContext context, Func`2 useHttps, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-22 16:12:28.789 -08:00 [ERR] Hosting failed to start
+System.FormatException: Invalid url: '5253'
+   at Microsoft.AspNetCore.Http.BindingAddress.Parse(String address)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.LoadInternal()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-22 16:13:10.411 -08:00 [ERR] Hosting failed to start
+System.FormatException: Invalid url: '5253'
+   at Microsoft.AspNetCore.Http.BindingAddress.Parse(String address)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.LoadInternal()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-11-22 16:13:31.194 -08:00 [ERR] Hosting failed to start
+System.FormatException: Invalid url: '5253'
+   at Microsoft.AspNetCore.Http.BindingAddress.Parse(String address)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.ParseAddress(String address, Boolean& https)
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.Reload()
+   at Microsoft.AspNetCore.Server.Kestrel.KestrelConfigurationLoader.LoadInternal()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)

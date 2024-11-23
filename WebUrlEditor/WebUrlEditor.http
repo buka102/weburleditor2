@@ -1,0 +1,6 @@
+@WebUrlEditor_HostAddress = http://localhost:5243
+
+GET {{WebUrlEditor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

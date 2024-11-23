@@ -1,0 +1,6 @@
+﻿services:
+  weburleditor:
+    image: weburleditor
+    build:
+      context: .
+      dockerfile: WebUrlEditor/Dockerfile
