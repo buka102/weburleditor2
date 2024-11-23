@@ -37,7 +37,7 @@ Follow these steps to run your application after submitting the code to GitHub:
    Clone your GitHub repository to your local machine.
    ```sh
    git clone https://github.com/buka102/WebUrlEditor2.git
-   cd WebUrlEditor
+   cd WebUrlEditor/WebUrlEditor
    ```
 
 ## Configure the Application
