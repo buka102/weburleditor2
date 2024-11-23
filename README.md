@@ -40,39 +40,6 @@ Follow these steps to run your application after submitting the code to GitHub:
    cd WebUrlEditor/WebUrlEditor
    ```
 
-## Configure the Application
-update your launchSettings.json:
-
-```
-{
-  "$schema": "http://json.schemastore.org/launchsettings.json",
-  "profiles": {
-    "http": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "http://localhost:5243",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "Kestrel:Endpoints:Http:Url": "5243"
-      }
-    },
-    "https": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7128;http://localhost:5243",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development",
-        "Kestrel:Endpoints:Https:Url": "7128"
-      }
-    }
-  }
-}
-```
-
 ## Restore Dependencies
 
 Restore the project dependencies using the .NET CLI:
