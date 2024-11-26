@@ -33,16 +33,6 @@ builder.Services.AddSingleton<IUrlShortenerService, UrlShortenerService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Read ports from configuration
-var httpPort = builder.Configuration.GetValue<int>("Kestrel:Endpoints:Http:Url");
-var httpsPort = builder.Configuration.GetValue<int>("Kestrel:Endpoints:Https:Url");
-
-builder.WebHost.UseKestrel(options =>
-{
-    options.ListenAnyIP(httpPort); // HTTP port
-    // options.ListenAnyIP(httpsPort, listenOptions => listenOptions.UseHttps()); // HTTPS port
-});
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
